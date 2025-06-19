@@ -1,41 +1,48 @@
 # 📊 Coffee Shop Analysis Dashboard
 
 Selamat datang di proyek **Coffee Shop Analysis**!  
-Dashboard ini dikembangkan dengan **Streamlit** dan **Bokeh** untuk membantu menganalisis performa penjualan dari sebuah coffee shop berdasarkan data transaksi.
+Dashboard ini dikembangkan menggunakan **Streamlit** dan **Bokeh** untuk memberikan visualisasi interaktif terhadap data penjualan sebuah coffee shop. Proyek ini bertujuan untuk memudahkan pemilik bisnis atau analis data dalam memahami tren penjualan harian, kategori produk, ukuran minuman, dan produk terlaris.
 
-🔗 [Live Demo](#) https://coffee-shop-dash.streamlit.app/
+🔗 **Live Demo:** [coffee-shop-dash.streamlit.app](https://coffee-shop-dash.streamlit.app/)
+
+---
 
 ## 📁 Dataset
-Dataset digunakan langsung dari file `Project.csv` yang didapat dari kaggle:  
-https://www.kaggle.com/datasets/divu2001/coffee-shop-sales-analysis/data
 
-Berisi data transaksi penjualan dengan fitur seperti:
-- `transaction_date`, `transaction_time`
+Dataset yang digunakan berasal dari Kaggle:  
+📦 [Coffee Shop Sales Dataset – Kaggle](https://www.kaggle.com/datasets/divu2001/coffee-shop-sales-analysis/data)
+
+Dataset ini berisi data transaksi yang mencakup:
+- `transaction_date` dan `transaction_time`
 - `store_location`, `product_category`, `product_type`
 - `Size`, `transaction_qty`, `Total_Bill`
 
+---
+
 ## 🚀 Fitur Dashboard
 
-✅ **Filter Sidebar**  
-- Lokasi toko (Store Location)  
-- Bulan (Month) menggunakan select slider  
+✅ **Filter Interaktif:**
+- Filter berdasarkan **Store Location**
+- Pilih **Bulan** menggunakan `select_slider`
 
-✅ **Key Metrics**  
+📊 **Ringkasan Statistik:**
 - Total Orders  
 - Total Revenue  
 - Total Products Sold  
 - Average Order Revenue  
 
-✅ **Visualisasi Interaktif** dengan Bokeh:
-1. **💵 Daily Revenue Trend**  
-2. **📆 Monthly Revenue**  
-3. **🏷️ Product Category Sales (%)**  
-4. **🥤 Sales Distribution by Size (Pie Chart)**  
-5. **🥇 Top 10 Best-Selling Products**
+📈 **Visualisasi Bokeh:**
+1. **💵 Daily Revenue Trend** – Grafik garis tren pendapatan harian  
+2. **📆 Monthly Revenue** – Diagram batang pendapatan bulanan  
+3. **🏷️ Product Category Sales (%)** – Persentase penjualan berdasarkan kategori  
+4. **🥤 Sales Distribution by Size** – Pie chart distribusi ukuran minuman  
+5. **🥇 Top 10 Best-Selling Products** – Daftar 10 produk terlaris  
+
+---
 
 ## 🛠️ Instalasi Lokal
 
-### 1. Clone repo ini
+### 1. Clone repositori ini
 ```bash
 git clone https://github.com/sanfla/Coffee-shop-analysis.git
 cd Coffee-shop-analysis
