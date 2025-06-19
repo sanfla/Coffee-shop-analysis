@@ -3,11 +3,11 @@
 Selamat datang di proyek **Coffee Shop Analysis**!  
 Dashboard ini dikembangkan dengan **Streamlit** dan **Bokeh** untuk membantu menganalisis performa penjualan dari sebuah coffee shop berdasarkan data transaksi.
 
-🔗 [Live Demo](#) *(opsional: tambahkan link Streamlit Cloud jika ada)*
+🔗 [Live Demo](#) https://coffee-shop-dash.streamlit.app/
 
 ## 📁 Dataset
 Dataset digunakan langsung dari file `Project.csv` yang didapat dari kaggle:  
-[Project.csv](https://www.kaggle.com/datasets/divu2001/coffee-shop-sales-analysis/data)
+https://www.kaggle.com/datasets/divu2001/coffee-shop-sales-analysis/data
 
 Berisi data transaksi penjualan dengan fitur seperti:
 - `transaction_date`, `transaction_time`
