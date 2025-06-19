@@ -79,7 +79,7 @@ with col_plot2:
 
 # Plot 3: Product Category Sales Percentage
 with col_plot3:
-    st.markdown("#### 🏷️ Product Category Sales (%)")
+    st.markdown("#### 🏷️ Product Category Sales")
     category_pct = df_filtered['product_category'].value_counts(normalize=True).mul(100).round(2)
     if category_pct.empty:
         cat_df = pd.DataFrame({'category': ['No Data'], 'percent': [100]})
@@ -95,7 +95,7 @@ with col_plot3:
 
 # Plot 4: Pie Chart - Size Distribution
 with col_plot4:
-    st.markdown("#### 🥤 Sales Distribution by Size (%)")
+    st.markdown("#### 🥤 Sales Distribution by Size")
     size_count = df_filtered['Size'].value_counts()
     if size_count.empty:
         size_df = pd.DataFrame({
