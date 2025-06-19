@@ -40,13 +40,6 @@ Dataset ini berisi data transaksi yang mencakup:
 
 ---
 
-## 🛠️ Instalasi Lokal
-
-### 1. Clone repositori ini
-```bash
-git clone https://github.com/sanfla/Coffee-shop-analysis.git
-cd Coffee-shop-analysis
-
 ## Kelompok:
 1. Bagas Eko Tjahyono Putro
 2. Arief Muhammad Usry
